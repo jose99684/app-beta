@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<center>
+    <div class="login-container">
+        <div class="logo-box">
+            AV Villas
+        </div>
+
+        <h2>Ingresa a tu Co-banking</h2>
+
+        <form action="../frontded/inicio.html">
+            <!-- Tipo de documento -->
+            <div class="input-group">
+                <select name="tipo_documento">
+                    <option value="" disabled selected>Tipo de documento</option>
+                    <option value="cc">Cédula de Ciudadanía</option>
+                    <option value="ce">Cédula de Extranjería</option>
+                </select>
+            </div>
+
+            <!-- Número de documento con icono simulado -->
+            <div class="input-group input-wrapper"><br>
+                <input type="text" placeholder="Número de documento" required>
+                <br>
+            </div>
+
+            <!-- Contraseña con icono simulado -->
+            <div class="input-group input-wrapper"><br>
+                <input type="password" placeholder="Ingresa tu contraseña" required>
+                
+            </div><br>
+
+            <!-- Botón de acción -->
+            <button type="submit" class="btn-ingresar">INGRESAR</button>
+        </form><br>
+
+        <!-- Enlaces inferiores -->
+        <div class="links-container">
+            <a href="#">Olvidé mi contraseña</a><br>
+            <a href="#">Regístrate</a>
+        </div>
+    </div>
+</center>
+</body>
+</html>
